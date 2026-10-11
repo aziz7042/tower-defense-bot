@@ -10,8 +10,8 @@ A Java strategy bot for a university tower-defense contest framework. The bot id
 - Ordered placement plans for supported layouts
 - A small, deterministic decision policy that is easy to inspect
 
-## Scope
+## What's included
 
-Only Aziz's `MyBot.java` is included; the upstream contest engine is intentionally excluded and is not claimed as original work. The available bot implements **tower selection and placement**. It does not contain tower-upgrade logic, so this repository makes no upgrade claim.
+Only Aziz's `MyBot.java` is included. The contest engine belongs to the course framework and is not part of this repository. The bot implements **tower selection and placement**; this version does not include tower-upgrade logic.
 
 The project will require the course's framework JARs or source on the classpath to compile. Those dependencies are not redistributed here.
